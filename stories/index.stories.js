@@ -1,7 +1,5 @@
 export default {
-  title: 'Intro',
+  title: 'Demo',
 };
 
-export const Intro = () => `
-    <p>Please see this repo's README.</p>
-`;
+export const Heading = () => '<h1>Hello World</h1>';

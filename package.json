@@ -1,12 +1,12 @@
 {
-  "name": "GeronimoWebUIStorybook",
+  "name": "parcel-boilerplate-storybook-preview",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 9009 -s public",
-    "storybook:preview": "npm run storybook -- --preview-url=http://localhost:9009/iframe.html",
+    "storybook:preview": "npm run storybook -- --preview-url=http://localhost:1337/iframe.html",
+    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "keywords": [],
@@ -15,11 +15,7 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.8.7",
-    "@storybook/addon-a11y": "^5.3.14",
-    "@storybook/addon-docs": "^5.3.14",
-    "@storybook/addon-knobs": "^5.3.14",
     "@storybook/addon-storysource": "^5.3.14",
-    "@storybook/addon-viewport": "^5.3.14",
     "@storybook/html": "^5.3.14",
     "babel-loader": "^8.0.6"
   }
