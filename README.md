@@ -4,4 +4,9 @@ It provides the standard Storybook UI, but loads story content from [standalone 
 
 - From standalone Storybook repo, start Storybook `npm run storybook`.
 - Then start this repo's Storybook instance `npm run storybook:preview`.
-- Accept the localhost port change with `Y`.
+- Accept the localhost port change with `Y` if prompted.
+
+## Storybook composition
+
+- `npm run storybook` instead of using `:preview` as above.
+- This is the new composition feature in V6, which leverages the `refs` property in `main.js`. Currently fails to load stories (due to CORS error) so `refs` have been commented out.
