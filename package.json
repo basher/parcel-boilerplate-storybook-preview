@@ -15,8 +15,8 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.11.1",
-    "@storybook/addon-a11y": "^6.0.13",
-    "@storybook/html": "^6.0.13",
+    "@storybook/addon-a11y": "^6.0.14",
+    "@storybook/html": "^6.0.14",
     "babel-loader": "^8.0.6"
   }
 }

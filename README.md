@@ -10,4 +10,3 @@ It provides the standard Storybook UI, but loads story content from [standalone 
 
 - `npm run storybook` instead of using `:preview` as above.
 - This is the new composition feature in V6, which leverages the `refs` property in `main.js`.
-- It currently fails to load stories due to [CORS error](https://github.com/storybookjs/storybook/issues/11892) so `refs` have been commented out.
